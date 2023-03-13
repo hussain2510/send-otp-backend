@@ -19,10 +19,3 @@ app.get('/', (req, res)=>{
 });
 
 app.listen(process.env.PORT || 4000);
-<<<<<<< HEAD
-module.exports=app;
-
-=======
-
-module.exports = app;
->>>>>>> cd78d6e7588fe3acd01a402fd5f6f9114a8dafd3
