@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+<<<<<<< HEAD
+=======
+  "engines": {
+    "node":"18.x"
+  },
+>>>>>>> cd78d6e7588fe3acd01a402fd5f6f9114a8dafd3
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon server.js",
     "start":"node server.js"
   },
   "author": "",
