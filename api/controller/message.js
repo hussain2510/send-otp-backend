@@ -12,6 +12,7 @@ exports.sendMessage = (req, res) => {
   privateKey:process.env.PRIVATE_KEY
 
 })
+console.log()
          console.log(req.body);
     const phone=req.body.phoneNumber;
     const message=req.body.message;
